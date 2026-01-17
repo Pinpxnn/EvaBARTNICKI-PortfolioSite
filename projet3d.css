@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    width: absolute;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    word-spacing: 0.3vw;
+
+    background-color: rgb(15, 15, 15);
+    z-index: 10;
+
+}
+
+.nom{
+    margin-left: 1.2vw;
+    font-size: 2.8vh;
+}
+
+.accueil{
+    margin-left: 1.2vw;
+    color: white;
+    text-decoration: none;
+}
+
+.accueil:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+.menu{
+    display: flex;
+    gap: 2.4vw;
+    align-items: center;
+    padding-left: 58%;
+    font-size: 1.8vh;
+}
+
+.contact{
+    
+    border : 1.4vh solid rgb(255, 255, 255);
+    border-radius: 10.5vh;
+    background-color: white;
+}
+
+.contact:hover{
+    font-size: larger;
+}
+
+.contacttxt{
+    color: black;
+    text-decoration: none;
+}
+
+
+#Titre {
+    display: block;
+    position: absolute;
+    padding-top: 38%;
+    text-align: center;
+    font-size: 4.2vh;
+    width: 100%;
+    
+}
+
+.bachelor{
+    display: block;
+    position: absolute;
+    padding-top: 45%;
+    text-align: center;
+    font-size: 1.6vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projets3d {
+    display: block;
+    position: absolute;
+    padding-top: 7%;
+    text-align: center;
+    font-size: 4.2vh;
+    width: 100%;
+    
+}
+
+.mecha{
+    width: 100vh;
+    margin-top: 12%;
+}
+
+
+.legomecha{
+    text-align: center;
+    margin-top: -52vh;
+    margin-left: 49.5vw;
+    line-height: 3.7vh;
+    font-size: 2.1vh;
+}
+
+#titrelego{
+    margin-bottom: 4.2vh;
+    font-size: 5.7vh;
+}
+
+
+.mechablocking{
+    width: 200vh;
+    margin-top: 17vh;
+}
+
+
+
+
+
+.texturing{
+    text-align: center;
+    margin-top: 21vh;
+    margin-right: 20vw;
+    line-height: 3.7vh;
+    font-size: 2.1vh;
+}
+
+#titretexturing{
+    margin-bottom: 4.2vh;
+    font-size: 5.7vh;
+}
+
+.texturingroom{
+    width: 64vw;
+    margin-top: -52.5vh;
+    margin-left: 45%;
+
+}
+
+.lumiere{
+    width: 70vw;
+    margin-top: -162.5vh;
+    margin-left: -21vw;
+}
+
+
+
+
+
+
+.modelisation{
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 5%;
+    margin-left: 63vw;
+    line-height: 3.7vh;
+    font-size: 2.1vh;
+}
+
+#titremodelisation{
+    margin-bottom: 4.2vh;
+    font-size: 5.7vh;
+}
+
+.kindredhead{
+    width: 64vw;
+    margin-top: -60vh;
+    margin-left: 2.9vw;
+}
+
+.kindredshowcase{
+    margin-top: 10vh;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+
+    background-color: rgb(44, 43, 48);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    color: white;
+}
+
+
+.lienmenu{
+    color: white;
+    text-decoration: none;
+}
+
+.lienmenu:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.lien{
+    font-size: 2.1vh;
+    color: white;
+    text-decoration: none;
+}
+
+.lien:hover{
+    font-size: 2.4vh;
+}
+
+
+
+
+footer {
+    width: 100%;
+    width: absolute;
+    height: 26vh;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    word-spacing: 0.3vw;
+
+    background-color: rgb(15, 15, 15);
+    z-index: -10;
+
+}
+
+.allfooter{
+    padding-left: 10%;
+    margin-top: 2.1vh;
+}
+
+.menufooter{
+    position: absolute;
+    display :flex ;
+    gap: 8.8vw;
+    align-items: center;
+    font-size: 3.1vh;
+    padding-left: 46.5vw;
+    margin-top: -2.9vh;
+}
+
+.lienmenufooter{
+    color: white;
+    text-decoration: none;
+}
+
+.lienmenufooter:hover{
+    font-size: 3.3vh;
+}
+
+.copyright{
+    display: flex;
+    gap: 2.9vw;
+    align-items: center;
+    font-size: 1.4vh;
+    margin-left: 40vh;
+    margin-top: 9.4vh;
+}
+
+
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.1;
+}
